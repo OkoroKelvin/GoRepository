@@ -11,5 +11,6 @@ func main() {
 		FirstName: "Tricia",
 		LastName:  "McMilan",
 	}
+
 	fmt.Println(u)
 }
