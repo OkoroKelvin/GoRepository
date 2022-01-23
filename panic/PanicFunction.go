@@ -22,4 +22,10 @@ func main() {
 	} else {
 		println("Different Users!")
 	}
+
+	if u1 == u2 {
+		println("Same user!")
+	} else if u1.FirstName != u2.LastName {
+		println("Similar user")
+	}
 }
