@@ -16,10 +16,10 @@ var (
 	nextID = 1
 )
 
-func getUsers() []*User {
+func GetUsers() []*User {
 	return users
 }
-func addUser(u User) (User, error) {
+func AddUser(u User) (User, error) {
 	if u.ID != 0 {
 		return User{}, errors.New("new User must not include id or int must be set to zero")
 	}
